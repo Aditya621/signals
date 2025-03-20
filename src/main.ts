@@ -15,7 +15,7 @@ const newValue = signal(100);
   selector: 'app-root',
   standalone: true,
   template: `
-    <!-- <h1> {{ name }} Signal!</h1> -->
+    <h1> {{ name }} Signal!</h1>
     <!-- <div>
       count {{countvalue}}
     </div>
